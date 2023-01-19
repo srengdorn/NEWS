@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 
+	}
+.bar1{	
+	padding: 20px 0;
+}
+.logo img{
+	height: 90px;
+	float: left;
+	
+}
+.ads1 img{
+	height: 90px;
+	float: right;
+  
+}
+.bar2{
+	background-color: royalblue;
+}
+
+.menu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	
+}
+.menu ul li{
+	float: left;
+	
+}
+.menu ul li a{
+	
+	padding: 10px 15px;
+	display: block;
+	text-decoration: none;
+	font-family: 'Koulen', cursive;
+	color: white;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	background-color: cornflowerblue !important;
+
+} 
+
+.content{
+	margin-top: 20px;
+}
+.box-cnt{
+	box-shadow: 1px 1px 2px 0 black;
+	float: left;
+	color: #000;
+	
+}
+.box-news{
+	height: 170px;
+	float:left;
+	padding: 20px;
+	color: #000;
+}
+
+.box-news .img {
+	float: left;
+	height: 100%;
+	padding: 0;
+	background-image: url("../../admin/img/1579086038.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.box-news .img img{
+	width: 100%;
+	height: 100%;
+	float: left;
+ 	
+}
+
+
+.box-news .text{
+	height: 100%;
+	float: left;
+	color: #000;
+	font-family: 'Battambang', Arial, Helvetica, sans-serif;
+}
+.box-news .text a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+.box-news .text a:hover{
+	color: dodgerblue;
+}
+.box-news .text span{
+	font-size: 11px;
+	font-family: 'Battambang', Arial, Helvetica, sans-serif;
+
+}	
+.box-news .text p{
+	color: #222222;
+    font-size: 12px;
+   
+}
+.btn-more{
+	width: 100px;
+	padding: 10px 15px;
+	margin: 10px;
+	float: right;
+	background-color: midnightblue;
+	color: #fff !important;
+	cursor: pointer;
+	opacity: 0.7;
+	border-radius: 4px;
+	
+}
+.btn-more:hover{
+	opacity: 1;
+}
+.ads2{
+	width: 100%;
+	background-color: rebeccapurple;
+	float: left;
+	margin-top: 10px;
+}
+.ads2 iframe{
+	width: 100%;
+	float: left;
+}
+.ads2 img{
+	width: 100%;
+	float: left;
+}
+.hot-new{
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	}
+.hot-new .img{
+	float: left;
+	height: 100%;
+	padding: 0;
+	
+}
+.hot-new .img img{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+.hot-new .text{
+	height: 100%;
+	float: left;
+}
+
+.hot-new .text a{
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+}
+
+/*
+footer{
+	background: #111;
+	width: 100%;
+	text-align: center;
+	font-family: 'Hanuman', serif;
+	margin-top: 20px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	
+}
+.footer h3{
+	font-size: 20px;
+	font-weight: 400px;
+	text-transform: capitalize;
+	line-height: 14px;
+	margin-left: 30px;
+	color: #fff;
+}
+*/
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+.socials a i{
+	font-size: 20px;
+	transition: color .4s ease;
+}
+.socials a:hover{
+	color: azure;
+}
+.box1{
+	background: #000;
+	margin-top: 30px;
+}
+.box2{
+	height: 250px;
+	padding: 5px;
+}
+.box3{
+	height: 100%;
+	width: 100%;
+}
+.box3{
+	font-size: 20px;
+	font-family: 'Hanuman', serif;
+}
+p {
+	color:#AFAFAF;
+	margin: 5px;
+}
+.box2 h3{
+	color:#AFAFAF;
+}
+/*loading*/
+.loader {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+}
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: animloader 2s linear infinite;
+}
+.loader::after {
+  animation-delay: 1s;
+}
+
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	background-color:#fff;
+	box-shadow: -1px -1px 5px 0 #ccc;
+	padding: 50px 15px;	
+	}
+p{
+	text-align: justify;
+	color: #000;
+}
+h5{
+	margin-left: 5px;
+	font-size: 18px;
+	position: center;
+	color: #000;
+}
+.footer .text{
+	padding: 20px;
+	
+}
+
+
+
